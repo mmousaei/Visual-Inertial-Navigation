@@ -1,0 +1,1 @@
+/home/mohammadreza/Documents/beginner_ros/devel/.private/std_msgs/share/std_msgs/cmake/std_msgsConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/mohammadreza/Documents/beginner_ros/devel/.private/std_msgs/lib/pkgconfig/std_msgs.pc

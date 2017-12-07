@@ -1,0 +1,1 @@
+/home/mohammadreza/Documents/beginner_ros/devel/.private/simple/share/simple/cmake/simpleConfig.cmake

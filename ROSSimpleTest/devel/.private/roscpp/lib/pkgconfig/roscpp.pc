@@ -1,0 +1,8 @@
+prefix=/home/mohammadreza/Documents/beginner_ros/devel/.private/roscpp
+
+Name: roscpp
+Description: Description of roscpp
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mohammadreza/Documents/beginner_ros/devel/.private/roscpp/lib 
+Requires: 

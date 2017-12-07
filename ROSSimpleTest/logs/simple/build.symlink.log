@@ -1,0 +1,5 @@
+Symlinking /home/mohammadreza/Documents/beginner_ros/devel/lib/pkgconfig/simple.pc
+Symlinking /home/mohammadreza/Documents/beginner_ros/devel/lib/simple/talker
+Symlinking /home/mohammadreza/Documents/beginner_ros/devel/lib/simple/listener
+Symlinking /home/mohammadreza/Documents/beginner_ros/devel/share/simple/cmake/simpleConfig.cmake
+Symlinking /home/mohammadreza/Documents/beginner_ros/devel/share/simple/cmake/simpleConfig-version.cmake

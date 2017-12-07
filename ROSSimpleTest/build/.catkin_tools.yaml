@@ -1,0 +1,6 @@
+devel_space: /home/mohammadreza/Documents/beginner_ros/devel
+install: false
+install_space: /home/mohammadreza/Documents/beginner_ros/install
+profile: default
+source_space: /home/mohammadreza/Documents/beginner_ros/src
+workspace: /home/mohammadreza/Documents/beginner_ros

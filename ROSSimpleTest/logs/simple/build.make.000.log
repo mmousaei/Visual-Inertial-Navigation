@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target listener[0m
+[35m[1mScanning dependencies of target talker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/listener.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/talker.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/mohammadreza/Documents/beginner_ros/devel/.private/simple/lib/simple/talker[0m
+[ 75%] Built target talker
+[100%] [32m[1mLinking CXX executable /home/mohammadreza/Documents/beginner_ros/devel/.private/simple/lib/simple/listener[0m
+[100%] Built target listener

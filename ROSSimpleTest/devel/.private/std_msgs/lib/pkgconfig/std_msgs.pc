@@ -1,0 +1,8 @@
+prefix=/home/mohammadreza/Documents/beginner_ros/devel/.private/std_msgs
+
+Name: std_msgs
+Description: Description of std_msgs
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mohammadreza/Documents/beginner_ros/devel/.private/std_msgs/lib 
+Requires: 

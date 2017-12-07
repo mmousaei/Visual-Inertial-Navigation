@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mohammadreza/Documents/beginner_ros/devel/.private/std_msgs/setup.sh

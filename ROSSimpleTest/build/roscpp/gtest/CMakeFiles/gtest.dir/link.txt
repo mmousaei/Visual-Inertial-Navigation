@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/mohammadreza/Documents/beginner_ros/build/roscpp/gtest/src -lpthread -Wl,-rpath,/home/mohammadreza/Documents/beginner_ros/build/roscpp/gtest/src 
