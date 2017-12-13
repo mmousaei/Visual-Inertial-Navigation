@@ -10,4 +10,6 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <depend>console_common</depend>
+  <depend>map_manager</depend>
+  <depend>vi_map</depend>
 </package>

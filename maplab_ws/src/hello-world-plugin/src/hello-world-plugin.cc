@@ -1,4 +1,7 @@
 #include <iostream>
+#include <string>
+#include <map-manager/map-manager.h>
+#include <vi-map/vi-map.h>
 
 #include <console-common/console-plugin-base.h>
 
@@ -42,6 +45,39 @@ class HelloWorldPlugin : public common::ConsolePluginBase {
         // This specifies the execution method of your command. For most
         // commands, it is sufficient to run them in sync with
         // common::Processing::Sync.
+        common::Processing::Sync);
+  
+         addCommand(
+        {"my_vi_map_command"},
+
+        [this]() -> int {
+          // Get the currently selected map.
+          std::string selected_map_key;
+
+          // This function will write the name of the selected map key into
+          // selected_map_key. The function will return false and print an error
+          // message if no map key is selected.
+          if (!getSelectedMapKeyIfSet(&selected_map_key)) {
+            return common::kStupidUserError;
+          }
+
+          // Create a map manager instance.
+          vi_map::VIMapManager map_manager;
+
+          // Get and lock the map which blocks all other access to the map.
+          vi_map::VIMapManager::MapWriteAccess map =
+              map_manager.getMapWriteAccess(selected_map_key);
+
+          // Now run your algorithm on the VI map.
+          // E.g., we can get the number of missions and print it.
+          const size_t num_missions = map->numMissions();
+          std::cout << "The VI map " << selected_map_key << " contains "
+                    << num_missions << " missions." << std::endl;
+
+          return common::kSuccess;
+        },
+
+        "This command will run an awesome VI map algorithm.",
         common::Processing::Sync);
   }
 };
